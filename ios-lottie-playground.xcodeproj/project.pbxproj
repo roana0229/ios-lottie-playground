@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2E956DA2320D6890057277F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E956D92320D6890057277F /* AppDelegate.swift */; };
+		D2E956DC2320D6890057277F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E956DB2320D6890057277F /* ViewController.swift */; };
+		D2E956DF2320D6890057277F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E956DD2320D6890057277F /* Main.storyboard */; };
+		D2E956E12320D6890057277F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E956E02320D6890057277F /* Assets.xcassets */; };
+		D2E956E42320D6890057277F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E956E22320D6890057277F /* LaunchScreen.storyboard */; };
+		DDBBA867C682051357929796 /* Pods_ios_lottie_playground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CFE7DEC6BDCA10087B9FF9 /* Pods_ios_lottie_playground.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13CFE7DEC6BDCA10087B9FF9 /* Pods_ios_lottie_playground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_lottie_playground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D2A9FE2305C1A8048C49A3 /* Pods-ios-lottie-playground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-lottie-playground.release.xcconfig"; path = "Target Support Files/Pods-ios-lottie-playground/Pods-ios-lottie-playground.release.xcconfig"; sourceTree = "<group>"; };
+		D2E956D62320D6890057277F /* ios-lottie-playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-lottie-playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E956D92320D6890057277F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2E956DB2320D6890057277F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2E956DE2320D6890057277F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2E956E02320D6890057277F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2E956E32320D6890057277F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2E956E52320D6890057277F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE12BA7D5AB6097FCCE24B11 /* Pods-ios-lottie-playground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-lottie-playground.debug.xcconfig"; path = "Target Support Files/Pods-ios-lottie-playground/Pods-ios-lottie-playground.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2E956D32320D6890057277F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBBA867C682051357929796 /* Pods_ios_lottie_playground.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CFDA483B77827F8EE950399 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE12BA7D5AB6097FCCE24B11 /* Pods-ios-lottie-playground.debug.xcconfig */,
+				A4D2A9FE2305C1A8048C49A3 /* Pods-ios-lottie-playground.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9E6D17E7DDC7E05DDE783CC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13CFE7DEC6BDCA10087B9FF9 /* Pods_ios_lottie_playground.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2E956CD2320D6890057277F = {
+			isa = PBXGroup;
+			children = (
+				D2E956D82320D6890057277F /* ios-lottie-playground */,
+				D2E956D72320D6890057277F /* Products */,
+				1CFDA483B77827F8EE950399 /* Pods */,
+				9E6D17E7DDC7E05DDE783CC0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D2E956D72320D6890057277F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2E956D62320D6890057277F /* ios-lottie-playground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2E956D82320D6890057277F /* ios-lottie-playground */ = {
+			isa = PBXGroup;
+			children = (
+				D2E956D92320D6890057277F /* AppDelegate.swift */,
+				D2E956DB2320D6890057277F /* ViewController.swift */,
+				D2E956DD2320D6890057277F /* Main.storyboard */,
+				D2E956E02320D6890057277F /* Assets.xcassets */,
+				D2E956E22320D6890057277F /* LaunchScreen.storyboard */,
+				D2E956E52320D6890057277F /* Info.plist */,
+			);
+			path = "ios-lottie-playground";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2E956D52320D6890057277F /* ios-lottie-playground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E956E82320D6890057277F /* Build configuration list for PBXNativeTarget "ios-lottie-playground" */;
+			buildPhases = (
+				78B66BB0227C15A2602EC474 /* [CP] Check Pods Manifest.lock */,
+				D2E956D22320D6890057277F /* Sources */,
+				D2E956D32320D6890057277F /* Frameworks */,
+				D2E956D42320D6890057277F /* Resources */,
+				3E9FE2470CD8023974E208B9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-lottie-playground";
+			productName = "ios-lottie-playground";
+			productReference = D2E956D62320D6890057277F /* ios-lottie-playground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2E956CE2320D6890057277F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Kaoru Tsutsumishita";
+				TargetAttributes = {
+					D2E956D52320D6890057277F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D2E956D12320D6890057277F /* Build configuration list for PBXProject "ios-lottie-playground" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2E956CD2320D6890057277F;
+			productRefGroup = D2E956D72320D6890057277F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2E956D52320D6890057277F /* ios-lottie-playground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2E956D42320D6890057277F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E956E42320D6890057277F /* LaunchScreen.storyboard in Resources */,
+				D2E956E12320D6890057277F /* Assets.xcassets in Resources */,
+				D2E956DF2320D6890057277F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E9FE2470CD8023974E208B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-lottie-playground/Pods-ios-lottie-playground-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-lottie-playground/Pods-ios-lottie-playground-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios-lottie-playground/Pods-ios-lottie-playground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78B66BB0227C15A2602EC474 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-lottie-playground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2E956D22320D6890057277F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E956DC2320D6890057277F /* ViewController.swift in Sources */,
+				D2E956DA2320D6890057277F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2E956DD2320D6890057277F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2E956DE2320D6890057277F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2E956E22320D6890057277F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2E956E32320D6890057277F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2E956E62320D6890057277F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2E956E72320D6890057277F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2E956E92320D6890057277F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE12BA7D5AB6097FCCE24B11 /* Pods-ios-lottie-playground.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DP5ZSR4FZH;
+				INFOPLIST_FILE = "ios-lottie-playground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.roana0229.app.ios-lottie-playground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2E956EA2320D6890057277F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4D2A9FE2305C1A8048C49A3 /* Pods-ios-lottie-playground.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DP5ZSR4FZH;
+				INFOPLIST_FILE = "ios-lottie-playground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.roana0229.app.ios-lottie-playground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2E956D12320D6890057277F /* Build configuration list for PBXProject "ios-lottie-playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E956E62320D6890057277F /* Debug */,
+				D2E956E72320D6890057277F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2E956E82320D6890057277F /* Build configuration list for PBXNativeTarget "ios-lottie-playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E956E92320D6890057277F /* Debug */,
+				D2E956EA2320D6890057277F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2E956CE2320D6890057277F /* Project object */;
+}

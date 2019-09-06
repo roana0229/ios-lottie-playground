@@ -1,5 +1,3 @@
-//: A UIKit based Playground for presenting user interface
-  
 import UIKit
 import PlaygroundSupport
 import Lottie
@@ -7,7 +5,7 @@ import Lottie
 // ▼ Myplayground.playground
 //   ▼ Sources
 //   ▼ Resources
-//     ▼ ここに参照したいファイルを追加する
+//     ▼ add my lottie files(*.json and image/*) here.
 
 class MyViewController : UIViewController {
 
@@ -17,16 +15,18 @@ class MyViewController : UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
-        // animation: Resourcesに追加したファイル名
-        addLottieView(animation: "LottieLogo1", speed: 10)
+
+        // if needed, set background color
+        // view.backgroundColor = .red
+
+        addLottieView(animationJsonFileName: "LottieLogo1", speed: 10)
 
         setupSlider()
         startAnimation()
     }
 
-    private func addLottieView(animation: String, speed: CGFloat) {
-        let animation = Animation.named(animation)
+    private func addLottieView(animationJsonFileName: String, speed: CGFloat) {
+        let animation = Animation.named(animationJsonFileName)
 
         animationView.animation = animation
         animationView.contentMode = .scaleAspectFit
@@ -90,5 +90,5 @@ class MyViewController : UIViewController {
     }
 
 }
-// Present the view controller in the Live View window
+
 PlaygroundPage.current.liveView = MyViewController()

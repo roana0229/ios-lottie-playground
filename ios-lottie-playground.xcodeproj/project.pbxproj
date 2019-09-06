@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 /* Begin PBXFileReference section */
 		13CFE7DEC6BDCA10087B9FF9 /* Pods_ios_lottie_playground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_lottie_playground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D2A9FE2305C1A8048C49A3 /* Pods-ios-lottie-playground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-lottie-playground.release.xcconfig"; path = "Target Support Files/Pods-ios-lottie-playground/Pods-ios-lottie-playground.release.xcconfig"; sourceTree = "<group>"; };
+		D29B08F62320DACA006E0E85 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D2E956D62320D6890057277F /* ios-lottie-playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-lottie-playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E956D92320D6890057277F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2E956DB2320D6890057277F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +47,6 @@
 				FE12BA7D5AB6097FCCE24B11 /* Pods-ios-lottie-playground.debug.xcconfig */,
 				A4D2A9FE2305C1A8048C49A3 /* Pods-ios-lottie-playground.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -61,6 +61,7 @@
 		D2E956CD2320D6890057277F = {
 			isa = PBXGroup;
 			children = (
+				D29B08F62320DACA006E0E85 /* MyPlayground.playground */,
 				D2E956D82320D6890057277F /* ios-lottie-playground */,
 				D2E956D72320D6890057277F /* Products */,
 				1CFDA483B77827F8EE950399 /* Pods */,

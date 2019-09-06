@@ -1,5 +1,7 @@
 # Run [lottie-ios](https://github.com/airbnb/lottie-ios) on Playground
 
+![demo](https://raw.githubusercontent.com/roana0229/ios-lottie-playground/master/demo.gif)
+
 ## How to Use
 
 1. `open ios-lottie-playground.xcworkspace`
